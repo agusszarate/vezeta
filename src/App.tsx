@@ -297,6 +297,9 @@ function App() {
                                 variant="outlined"
                                 size="large"
                                 sx={{ color: 'white', borderColor: 'white' }}
+                                onClick={() => {
+                                    sendMessage(language)
+                                }}
                             >
                                 {t('contactUs')}
                             </Button>
